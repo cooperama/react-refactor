@@ -1,3 +1,8 @@
+import React from 'react';
+// import articleImageOne from './images/article_1';
+// import articleImageTwo from './images/article_2';
+// import articleImageThree from './images/article_3';
+
 const articles = [
   {
     src: '../images/article_1.jpg',
