@@ -1,21 +1,21 @@
 import React from 'react';
-// import articleImageOne from './images/article_1';
-// import articleImageTwo from './images/article_2';
-// import articleImageThree from './images/article_3';
+import articleImageOne from './images/article_1.jpg';
+import articleImageTwo from './images/article_2.jpg';
+import articleImageThree from './images/article_3.jpg';
 
 const articles = [
   {
-    src: '../images/article_1.jpg',
+    src: articleImageOne,
     alt: 'cactus',
     title: 'Issue Twenty - The Southwest'
   },
   {
-    src: '../images/article_2.jpg',
+    src: articleImageTwo,
     alt: 'campfire',
     title: 'Issue Nineteen - Camping'
   },
   {
-    src: '../images/article_3.jpg',
+    src: articleImageThree,
     alt: 'plate of food',
     title: 'Issue Eighteen - Food'
   },

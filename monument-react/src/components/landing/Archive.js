@@ -1,9 +1,14 @@
 import React from 'react';
 import Article from './Article';
-import articles from '../articleData';
+import articles from '../../articleData';
 
 const articleComponents = articles.map((articleObj) => {
-  return <Article key={Date.now()} article={articleObj} />
+  return <Article 
+    key={Date.now()} 
+    src={articleObj.src} 
+    alt={articleObj.alt} 
+    title={articleObj.title} 
+    />
 })
 
 const Archive = (props) => {

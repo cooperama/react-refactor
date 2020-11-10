@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../components/LandingHeader';
-import Archive from '../components/Archive';
-import About from '../components/About';
-import Gallery from '../components/Gallery';
-import Contact from '../components/Contact';
+import Header from '../components/landing/LandingHeader';
+import Archive from '../components/landing/Archive';
+import About from '../components/landing/About';
+import Gallery from '../components/landing/Gallery';
+import Contact from '../components/landing/Contact';
 
 import './Landing.css';
 
