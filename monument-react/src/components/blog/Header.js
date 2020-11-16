@@ -1,13 +1,15 @@
-import React from 'react';
+import { Link } from "react-router-dom";
 
 const Header = (props) => {
   return (
-    <header class="vertical-center">
+    <header className="vertical-center">
       <div>
-        <h1><a href="index.html">Monument</a></h1>
+        <h1>
+          <Link to="/">Monument</Link>
+        </h1>
       </div>
     </header>
-  )
-}
+  );
+};
 
 export default Header;

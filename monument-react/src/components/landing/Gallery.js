@@ -1,18 +1,17 @@
-import React from 'react';
-import galleryOne from '../../images/gallery_1.jpg';
-import galleryTwo from '../../images/gallery_2.jpg';
-import galleryThree from '../../images/gallery_3.jpg';
-import galleryFour from '../../images/gallery_4.jpg';
-import galleryFive from '../../images/gallery_5.jpg';
-import gallerySix from '../../images/gallery_6.jpg';
+import galleryOne from "../../images/gallery_1.jpg";
+import galleryTwo from "../../images/gallery_2.jpg";
+import galleryThree from "../../images/gallery_3.jpg";
+import galleryFour from "../../images/gallery_4.jpg";
+import galleryFive from "../../images/gallery_5.jpg";
+import gallerySix from "../../images/gallery_6.jpg";
 
 const Gallery = (props) => {
   return (
     <section id="gallery">
-      <div class="wrap">
+      <div className="wrap">
         <h2>Issue Twenty</h2>
         <h3>A visual guide to the Southwest</h3>
-        <div class="masonry">
+        <div className="masonry">
           <img src={galleryOne} alt="image1" />
           <img src={galleryTwo} alt="image2" />
           <img src={galleryThree} alt="image3" />
@@ -22,7 +21,7 @@ const Gallery = (props) => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Gallery;
